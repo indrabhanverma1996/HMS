@@ -1,0 +1,20 @@
+
+
+{% include 'admin/inc/head.html' %}
+<body>
+     <div class="container-scroller">   
+ <div class="container-fluid page-body-wrapper">
+    {% include 'admin/inc/navbar.html' %}
+    {% include 'admin/inc/sidebar.html' %}
+    {% block context %}
+
+
+
+    {% endblock %}
+
+ </div>
+    {% include 'admin/inc/footer.html' %}
+</div>
+</body>
+
+</html>
